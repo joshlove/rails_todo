@@ -1,13 +1,10 @@
-require 'capybara/rspec'
-
-Capybara.configure do |config|
-  config.run_server = true
-  config.app_host = "http://localhost:3000"
-  config.default_driver = :selenium
-end
+#Capybara.configure do |config|
+#  config.run_server = true
+#  config.app_host = "http://localhost:3000"
+#  config.default_driver = :selenium
+#end
 
 RSpec.configure do |config|
-
   config.expect_with :rspec do |expectations|
     expectations.include_chain_clauses_in_custom_matcher_descriptions = true
   end
