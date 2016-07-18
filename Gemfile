@@ -17,6 +17,8 @@ group :development, :test do
   gem 'byebug', platform: :mri
   gem 'rspec'
   gem 'rspec-rails'
+  gem 'rails-controller-testing'
+  gem 'selenium-webdriver'
 end
 
 group :test do
