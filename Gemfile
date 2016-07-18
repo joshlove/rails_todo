@@ -22,7 +22,7 @@ group :development, :test do
 end
 
 group :test do
-  gem 'capybara-rails'
+  gem 'capybara'
 end
 
 group :development do
